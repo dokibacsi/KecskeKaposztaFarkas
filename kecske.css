@@ -67,3 +67,8 @@ footer p{
 img{
     width: 100px;
 }
+
+.kiemel{
+    border: 2px solid darkred;
+    cursor: grab;
+}
