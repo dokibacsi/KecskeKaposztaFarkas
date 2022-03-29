@@ -1,0 +1,70 @@
+main{
+    display: grid;
+    grid-template-areas: "he he he"
+                         "bal ar jobb"
+                         "foo foo foo";
+}
+
+header{
+    grid-area: he;
+    border: 1px solid grey;
+}
+
+header h1{
+    text-align: center;
+}
+
+aside#bal{
+    grid-area:bal;
+    width: 250px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 250px;
+}
+
+aside#bal h2{
+    margin: 0px;
+}
+
+aside#jobb{
+    grid-area:jobb;
+    border: 1px solid grey;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 400px;
+    width: 250px;
+}
+
+aside#jobb h2{
+    margin: 0px;
+}
+
+article{
+    grid-area: ar;
+    border: 1px solid grey;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 600px;
+    background-color:lightskyblue;
+}
+
+footer{
+    grid-area: foo;
+    border: 1px solid grey;
+}
+
+footer p{
+    text-align: center;
+    background-color: lightblue;
+    margin: 0px;
+}
+
+img{
+    width: 100px;
+}
